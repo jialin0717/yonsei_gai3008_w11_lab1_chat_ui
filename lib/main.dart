@@ -12,7 +12,7 @@ class ChatLabApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'AI Chat — 11주차',
+      title: 'AI Chat — 실습 1',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF2F6FE4)),
@@ -261,7 +261,7 @@ class _ChatPageState extends State<ChatPage>
 
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      appBar: AppBar(title: const Text('AI Chat — 11주차'), centerTitle: true),
+      appBar: AppBar(title: const Text('AI Chat — 실습 1'), centerTitle: true),
       body: SafeArea(
         child: Column(
           children: [
